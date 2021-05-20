@@ -82,6 +82,8 @@ const Calculator = () => {
 
 const styles = StyleSheet.create({
   container: {
+      flexDirection: "column", // default
+      justifyContent: "flex-start" //default 
   },
   row: {
   },
